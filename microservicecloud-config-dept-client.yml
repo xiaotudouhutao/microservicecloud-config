@@ -25,8 +25,6 @@ mybatis:
   type-aliases-package: com.atguigu.springcloud.entities    # 所有Entity别名类所在包
   mapper-locations:
   - classpath:mybatis/mapper/**/*.xml                       # mapper映射文件   
-spring:
-
 eureka:
   client: #客户端注册进eureka服务列表内
     service-url: 
