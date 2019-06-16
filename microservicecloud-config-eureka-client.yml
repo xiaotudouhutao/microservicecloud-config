@@ -4,7 +4,7 @@ spring:
     - dev
 ---
 server: 
-  port: 8201
+  port: 7001
 spring:
   profiles: dev
   application: 
@@ -15,7 +15,7 @@ eureka:
       defaultZone: http://eureka7001.com:7001/eureka/       #单机,设置与Eureka Server交互的地址查询服务和注册服务都需要依赖这个地址（单机）。
 ---
 server: 
-  port: 8202
+  port: 7001
 spring:
   profiles: test
   application:
